@@ -13,7 +13,7 @@ export default function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/pick");
+      const res = await fetch("https://lotto-web-5eqz.onrender.com/pick");
       const data = await res.json();
 
       console.log("받은 데이터:", data);
